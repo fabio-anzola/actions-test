@@ -1,0 +1,11 @@
+name: Runner Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: actions_runner_dev
+    steps:
+      - name: Say Hello
+        run: echo "👋 Hello from your Kubernetes runner!"
