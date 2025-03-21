@@ -5,7 +5,7 @@ on:
 
 jobs:
   hello:
-    runs-on: actions_runner_dev
+    runs-on: self-hosted
     steps:
       - name: Say Hello
         run: echo "👋 Hello from your Kubernetes runner!"
