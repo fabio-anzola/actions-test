@@ -3,7 +3,7 @@ name: Build & Push Inverter Docker Image to GHCR
 on:
   push:
     branches:
-      - main  # or whatever branch you want
+      - master  # or whatever branch you want
 
 jobs:
   build:
